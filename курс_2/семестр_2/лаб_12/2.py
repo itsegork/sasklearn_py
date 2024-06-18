@@ -1,3 +1,5 @@
+import numpy as np
+
 rows = int(input("Введите количество строк: "))
 cols = int(input("Введите количество столбцов: "))
 

@@ -5,3 +5,5 @@ def variant_1():
   for word in words:
     result.append('-'.join(word.upper()))
   print("Результат:", ' '.join(result))
+
+variant_1()

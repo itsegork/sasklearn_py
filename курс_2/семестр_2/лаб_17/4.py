@@ -1,7 +1,6 @@
 import datetime
 
 def get_lucky_dates(start_date_str, n):
-  """Получает список из трёх счастливых дат, начиная с исходной даты."""
   start_date = datetime.datetime.strptime(start_date_str, "%Y/%m/%d").date()
   lucky_dates = []
   count = 0
@@ -10,7 +9,7 @@ def get_lucky_dates(start_date_str, n):
     current_date += datetime.timedelta(days=n)
     day_of_week = current_date.weekday()
     day_number = current_date.day
-    if day_number % 4 != 0 and day_of_week != 0:  # Не кратен 4 и не понедельник
+    if day_number % 4 != 0 and day_of_week != 0:
       count += 1
       lucky_dates.append(current_date)
     else:

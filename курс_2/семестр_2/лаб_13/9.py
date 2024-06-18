@@ -6,3 +6,5 @@ def variant_8():
     if len(word) > max_length:
       max_length = len(word)
   print("Длина самого длинного слова:", max_length)
+
+variant_8()

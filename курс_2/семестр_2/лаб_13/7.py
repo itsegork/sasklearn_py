@@ -6,3 +6,5 @@ def variant_6():
     if len(word) < min_length:
       min_length = len(word)
   print("Длина самого короткого слова:", min_length)
+
+variant_6()

@@ -5,3 +5,5 @@ def variant_7():
   for word in words[::-1]:
     result.append('+'.join(word))
   print("Результат:", ' '.join(result))
+
+variant_7()

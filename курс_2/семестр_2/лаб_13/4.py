@@ -3,3 +3,5 @@ def variant_3():
   start, end = map(int, input("Введите начальный и конечный индексы (через пробел): ").split())
   sum_numbers = sum(numbers[start:end+1])
   print("Сумма:", sum_numbers)
+
+variant_3()
