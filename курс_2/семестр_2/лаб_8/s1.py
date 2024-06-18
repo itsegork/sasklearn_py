@@ -1,0 +1,5 @@
+original_string = input("Введите строку из слов, разделенных пробелами: ")
+words = original_string.split()
+reversed_string = ' '.join(reversed(words))
+print("Обратная строка:")
+print(reversed_string)
