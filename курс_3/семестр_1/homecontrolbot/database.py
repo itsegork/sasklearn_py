@@ -13,7 +13,7 @@ conn = pyodbc.connect(conn_str)
 cursor = conn.cursor()
 
 # токен
-bot = telebot.TeleBot("8075687768:AAGL6z5VzmYiTUXmDlL0mq5z9vDydOr87RA")
+bot = telebot.TeleBot("ВСТАВИТЬ ТОКЕН СЮДА")
 
 # разрешенные пользователи
 cursor.execute('SELECT allowed FROM allowed')
