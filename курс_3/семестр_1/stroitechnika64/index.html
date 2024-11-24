@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Стройтехника 64</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>ООО "Стройтехника64"</h1>
+            <p>Надежные решения для вашего строительства</p>
+            <button class="call-order" id="open-form">Заказать звонок</button>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">О компании</a></li>
+            <li><a href="#services">Услуги</a></li>
+            <li><a href="#reviews">Отзывы</a></li>
+            <li><a href="#contact">Контакты</a></li>
+        </ul>
+    </nav>
+    <main>
+        <a href="tel:+7XXXXXXXXXX" class="floating-call-button">📞</a>
+        <a href="mailto:mail@itsegork.ru" class="floating-email-button">✉️</a>  
+        <section id="about">
+            <h2>О компании</h2>
+            <p>Компания "Стройтехника64" занимается предоставлением профессиональных решений для строительства. Мы предлагаем надежные материалы, современное оборудование и услуги, которые помогают нашим клиентам реализовывать проекты любой сложности.</p>
+        </section>
+        <section id="services">
+            <h2>Наши услуги</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Аренда техники</h3>
+                    <p>Профессиональная строительная техника в аренду для ваших проектов.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Поставка материалов</h3>
+                    <p>Качественные строительные материалы с быстрой доставкой.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Проектирование</h3>
+                    <p>Разработка индивидуальных планов строительства и инженерных решений.</p>
+                </div>
+            </div>
+        </section>
+        <section id="reviews">
+            <h2>Отзывы клиентов</h2>
+            <blockquote>
+                <p>"Сотрудничество со 'Стройтехника64' помогло нам завершить проект в срок."</p>
+                <cite>- Иван Иванов</cite>
+            </blockquote>
+        </section>
+    </main>
+    <footer id="contact">
+        <p>&copy; 2024 ООО "Стройтехника64". Все права защищены.</p>
+    </footer>
+    <div class="popup-form" id="popup-form">
+        <div class="popup-content">
+            <span class="close-btn" id="close-btn">&times;</span>
+            <h2>Свяжитесь с нами</h2>
+            <form id="callback-form">
+                <div class="form-group">
+                    <label for="name">Ваше имя:</label>
+                    <input type="text" id="name" name="name" required placeholder="Введите ваше имя">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Ваш телефон:</label>
+                    <input type="tel" id="phone" name="phone" required placeholder="Введите ваш телефон">
+                </div>
+                <div class="form-group">
+                    <label for="message">Сообщение:</label>
+                    <textarea id="message" name="message" required placeholder="Введите ваше сообщение"></textarea><br><br>
+                </div>
+                <div>
+                <button type="submit">Отправить</button>
+                </div>
+            </form>
+            <p>При нажатии кнопки "Отправить" вы соглашаетесь на обработку персональных данных</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
